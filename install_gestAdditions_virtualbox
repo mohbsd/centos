@@ -1,0 +1,8 @@
+~ How to install Guest Addtions on Centos 7 ~
+
+1/ insert the cd
+2/ mount it on a freshly /media/mountdir
+3/ # yum update
+   # yum install gcc dkms make kernel-devel kernel-headers bzip2
+   # cd /media/VBOXADDITIONS*	
+   # ./VBoxLinuxAdditions.run
